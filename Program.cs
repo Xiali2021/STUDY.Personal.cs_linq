@@ -59,6 +59,17 @@
             {
                 Console.WriteLine(x); // 输出: 1 和 2
             }
+
+            // Count 
+            Console.WriteLine("Count: " + numbers.Count()); // 输出: Count: 4
+
+            // Any
+            Console.WriteLine(numbers.Any(x => x > 3)); // 输出: True
+
+            // Sum
+            var sum = numbers.Sum();
+            Console.WriteLine("Sum: " + sum);
+
         }
     }
 }
